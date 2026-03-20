@@ -19,4 +19,4 @@ A Java-based payroll application that automates salary calculations for MotorPH 
 
 ## Team
 - **Anthony Sediego**
-- - **Kizia Aguana** 
+- **Kizia Aguana** 
