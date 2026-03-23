@@ -601,7 +601,7 @@ public class Main {
      * basic salary in a bracketed contribution table. The table increments by
      * PHP 500 per bracket, with each bracket's contribution increasing by PHP 22.50.
      *
-     * Contribution table (from provided SSS table image):
+     * Contribution table :
      *   Basic Salary Range          | Employee Contribution
      *   Below PHP 3,250             | PHP 135.00
      *   PHP 3,250 – PHP 3,749.99    | PHP 157.50
@@ -652,7 +652,7 @@ public class Main {
      * basic salary. The total premium is split equally between the employee and
      * the employer, so the employee pays 50% of the total computed premium.
      *
-     * Premium table (from provided PhilHealth table image):
+     * Premium table :
      *   Monthly Basic Salary         | Premium Rate | Monthly Premium
      *   Below PHP 10,000             | 3%           | PHP 300.00 (minimum)
      *   PHP 10,000.01 to PHP 59,999.99 | 3%         | PHP 300.00 up to PHP 1,800.00
@@ -693,7 +693,7 @@ public class Main {
      * The maximum employee contribution is capped at PHP 100.00, regardless of
      * how large the computed amount would be.
      *
-     * Contribution table (from provided Pag-IBIG table image):
+     * Contribution table :
      *   Monthly Basic Salary       | Employee Rate | Employer Rate | Total
      *   PHP 1,000 – PHP 1,500      | 1%            | 2%            | 3%
      *   Above PHP 1,500            | 2%            | 2%            | 4%
@@ -726,7 +726,7 @@ public class Main {
      * from the combined monthly gross salary. The resulting taxable income is then
      * matched to the correct bracket in the BIR withholding tax table.
      *
-     * Withholding tax table (from provided tax table image):
+     * Withholding tax table :
      *   Taxable Income (Monthly)    | Tax Formula
      *   PHP 20,832 and below        | No tax (PHP 0)
      *   PHP 20,833 to below 33,333  | 20% of excess over PHP 20,833
@@ -735,7 +735,7 @@ public class Main {
      *   PHP 166,667 to below 666,667| PHP 40,833.33 + 32% of excess over PHP 166,667
      *   PHP 666,667 and above       | PHP 200,833.33 + 35% of excess over PHP 666,667
      *
-     * Verification using professor's sample (from Image 1):
+     * Verification using professor's sample :
      *   Monthly Salary   = PHP 25,000
      *   SSS              = PHP 1,125
      *   PhilHealth       = PHP 375
